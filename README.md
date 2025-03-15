@@ -349,8 +349,6 @@ For fairness analysis, I split each features into two groups to see the RMSE. A 
    - Fail to reject the null hypothesis: No significant difference in RMSE between the two groups. -> samples are unfair between the two groups
  
 
-
-So three of four feartures are unfair. This observed unfairness in my model's performance between groups could stem from several potential causes, including dataset issues. Another potential issue is model issue, such as overfitting.The model may overfit to the majority group at the expense of the minority group.
-
-
-Still working on .....
+#### Conclusion
+So three of four features are unfair. This observed unfairness in my model's performance between groups could stem from several potential causes, including dataset issues. Another potential issue is model issue, such as overfitting. The model may overfit to the majority group at the expense of the minority group.
+Also, the average rate and each nutrition doesn't have coreration which means when the amount of nutrition increase doesn't always mean average rate will increase. When people evaluate the recipe with higher rate, the nutrition would be a moderate balance. This implies that increasing or decreasing a specific nutrient does not directly lead to a higher or lower rating. So, linear regression is an unsuitable model for this prediction task. To improve predictive performance, future work should explore non-linear models such as tree-based regressors or neural networks that can better capture the complex interactions between nutrition features and user preferences.
