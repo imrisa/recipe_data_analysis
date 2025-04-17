@@ -1,6 +1,6 @@
 # recipe_data_analysis
 This is a project for DSC80 at UCSD
-Website Link: https://imrisa.github.io/recipe_data_analysis/
+- Website Link: https://imrisa.github.io/recipe_data_analysis/
 
 
 
